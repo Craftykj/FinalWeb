@@ -1,0 +1,159 @@
+body {
+    background-color: #111;
+    color: firebrick;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #666666, #111111);
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #002171;
+    margin-bottom: 0;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+    background-origin: border-box;
+    min-height: 15vh;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+h1 {
+    color: ghostwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: cornsilk;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #1976d2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000033;
+}
+
+#wrapper {
+    width: 95%;
+    margin: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    line-height: 1.6;
+}
+
+#main {
+    width: auto;
+    border: 15px solid ghostwhite;
+    border-radius: 40px 10px;
+    padding: 50px;
+    margin: 20px 10%;
+    background-color: black;
+    overflow: auto;
+    height: 500px
+}
+
+ul {
+    list-style-position: outside;
+    padding: 0.5em;
+}
+
+li {
+    margin: 0 0 0 50px;
+    padding: 0 0 0.5em 0;
+}
+
+dt {
+    color: #01a0fc;
+    font-weight: bold;
+    text-decoration: underline;
+    list-style-type: disc;
+}
+
+dt::after {
+    content: ":";
+}
+
+dd {
+    list-style-type: disc;
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    background-image: url(images/footer.png);
+    background-size: cover;
+    color: black;
+    min-height: 10vh;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#contact {
+    font-size: 90%;
+    min-height: 10vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hero-image {
+    background: url(images.banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.hero-text {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+    text-shadow: 1px 1px 10px black, 0 0 25px black, 0 0 5px black;
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+nav a:link {
+    color: #5C7FA3;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #A52A2A;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #FFFFFF;
+}
+
+header a:visited {
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: #90C7E3;
+}
